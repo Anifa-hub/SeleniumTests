@@ -11,9 +11,9 @@ public class HomePage {
         this.driver = driver;
     }
 
-    public DisappearingElementsPage clickDisappearing(){
+    public DisappearingPage clickDisappearing(){
         clickLink("Disappearing Elements");
-        return new DisappearingElementsPage(driver);
+        return new DisappearingPage(driver);
     }
     public void clickDynamicLoadingPage(){
         Actions actions = new Actions(driver);

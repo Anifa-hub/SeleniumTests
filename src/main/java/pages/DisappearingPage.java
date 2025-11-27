@@ -6,11 +6,11 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class DisappearingElementsPage {
+public class DisappearingPage {
     private WebDriver driver;
     private By links = By.tagName("li");
 
-    public DisappearingElementsPage(WebDriver driver){
+    public DisappearingPage(WebDriver driver){
         this.driver = driver;
     }
 
